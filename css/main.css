@@ -1,0 +1,52 @@
+div {
+    width: 1000px;
+    height: 500px;
+    background: #39c64f;
+    position: relative;
+}
+div .blanco {
+    outline: 1px solid white;
+    position: absolute;
+    width: 940px;
+    height: 440px;
+    left: 30px;
+    top: 30px;
+}
+.arco {
+    width: 100px;
+    height: 200px;
+    outline: 1px solid white;
+    position: absolute;
+    top: 150px;
+}
+div .uno {
+    left: 30px;
+}
+div .dos {
+    right: 30px;
+}
+.circulo {
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    position: absolute;
+    top: 150px;
+    border-radius: 100%;
+    left: 400px;
+}
+
+.one{
+    top: 153px;
+    left: 120px;
+}
+.two{
+    top: 100px;
+    left: 600px;
+}
+.tree {
+    top: 320px;
+    left: 840px;
+}
+img {
+    position: absolute;
+}
